@@ -66,7 +66,17 @@ title="See more information on Transifex.com"><img src="https://ds0k0en9abmn1.cl
       NB: Please direct all discussions about the VSIX to <a href="https://github.com/pmiossec/vscode-gitextensions">its own repo</a>.</td>
   </tr></table>
 
+## Mono Dependencies
 
+For Ubuntu, these are the packages you need to install to run GitExtensions:
+
+```
+sudo apt install mono-runtime \
+                 libmono-system-windows-forms4.0-cil \
+                 libmono-system-ldap4.0-cil \
+                 ibmono-system-componentmodel-composition4.0-cil \
+                 libmono-system-componentmodel-composition4.0-cil
+ ```
 
 
 ## Shoutouts
